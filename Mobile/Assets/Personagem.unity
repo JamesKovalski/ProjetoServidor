@@ -366,9 +366,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: {fileID: 1481562956}
-  descricao: {fileID: 1525730053}
-  forca: {fileID: 1374568157}
-  peso: {fileID: 58086118}
+  detalhe: {fileID: 1525730053}
+  poder: {fileID: 1374568157}
+  tamanho: {fileID: 58086118}
 --- !u!4 &526578609
 Transform:
   m_ObjectHideFlags: 0
