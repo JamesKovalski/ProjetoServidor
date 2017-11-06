@@ -9,10 +9,10 @@ public class Person {
 
 	public string Nome;
 
-    public string Descricao;
+    public string Detalhe;
 
-    public int Força;
+    public int Poder;
 
-    public int Peso;
+    public int Tamanho;
 
 }

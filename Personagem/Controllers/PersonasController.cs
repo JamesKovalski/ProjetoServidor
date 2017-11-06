@@ -47,7 +47,7 @@ namespace Personagem.Controllers
         // obter mais detalhes, consulte https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Nome,Descricao,Força,Peso")] Persona persona)
+        public ActionResult Create([Bind(Include = "ID,Nome,Detalhe,Poder,Tamanho")] Persona persona)
         {
             if (ModelState.IsValid)
             {

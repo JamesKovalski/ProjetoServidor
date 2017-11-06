@@ -11,11 +11,11 @@ namespace Personagem.Models
 
         public string Nome { get; set; }
 
-        public string Descricao { get; set; }
+        public string Detalhe { get; set; }
 
-        public int Força { get; set; }
+        public int Poder { get; set; }
 
-        public int Peso { get; set; }
+        public int Tamanho { get; set; }
 
     }
 }
